@@ -27,7 +27,7 @@ const IndexDropdown = () => {
           dropdownPopoverShow ? closeDropdownPopover() : openDropdownPopover();
         }}
       >
-        Demo Pages
+        القائمة الرئيسية
       </a>
       <div
         ref={popoverDropdownRef}
@@ -41,7 +41,7 @@ const IndexDropdown = () => {
             "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
           }
         >
-          Admin Layout
+          قائمة الادارة
         </span>
         <Link href="/admin/dashboard">
           <a
@@ -50,7 +50,7 @@ const IndexDropdown = () => {
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
-            Dashboard
+            لوحة القيادة
           </a>
         </Link>
         <Link href="/admin/settings">
@@ -60,7 +60,7 @@ const IndexDropdown = () => {
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
-            Settings
+            الاعدادت
           </a>
         </Link>
         <Link href="/admin/tables">
@@ -70,7 +70,7 @@ const IndexDropdown = () => {
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
-            Tables
+            التقارير
           </a>
         </Link>
         <Link href="/admin/maps">
@@ -80,7 +80,7 @@ const IndexDropdown = () => {
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
-            Maps
+            الخدمات
           </a>
         </Link>
         <div className="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
@@ -89,7 +89,7 @@ const IndexDropdown = () => {
             "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
           }
         >
-          Auth Layout
+          قائمة تسجيل الدخول
         </span>
         <Link href="/auth/login">
           <a
@@ -98,7 +98,7 @@ const IndexDropdown = () => {
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
-            Login
+            تسجيل الدخول
           </a>
         </Link>
         <Link href="/auth/register">
@@ -108,7 +108,7 @@ const IndexDropdown = () => {
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
-            Register
+            انشاء حساب
           </a>
         </Link>
         <div className="h-0 mx-4 my-2 border border-solid border-blueGray-100" />
@@ -117,7 +117,7 @@ const IndexDropdown = () => {
             "text-sm pt-2 pb-0 px-4 font-bold block w-full whitespace-nowrap bg-transparent text-blueGray-400"
           }
         >
-          No Layout
+          القائمة العامة
         </span>
         <Link href="/landing">
           <a
@@ -126,7 +126,7 @@ const IndexDropdown = () => {
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
-            Landing
+            الصفحة الشخصية
           </a>
         </Link>
         <Link href="/profile">
@@ -136,7 +136,7 @@ const IndexDropdown = () => {
               "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
             }
           >
-            Profile
+            البروفايل
           </a>
         </Link>
       </div>
