@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import { signIn, signOut, useSession } from 'next-auth/client';
-import styles from '../styles/Home.module.css';
+import styles from '../../styles/Home.module.css';
 
 export default function Home() {
   const [session, loadingSession] = useSession();
